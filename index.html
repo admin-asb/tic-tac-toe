@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/fc84693020.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="./scripts.js"></script>
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="intro">
+        <h1>Tic Tac Toe</h1>
+        <p>Select which one do you want to be?</p>
+        <div class="box-container">
+          <div class="box box-x">Player (x)</div>
+          <div class="box box-o">Player (o)</div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main__top">
+          <div class="main__top-boxes">
+            <button class="turn-btn turn-btn-x turn-btn--active">
+              x's Turn
+            </button>
+            <button class="turn-btn turn-btn-o">o's Turn</button>
+          </div>
+        </div>
+        <div class="main__bot">
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+          <div class="grid-item"></div>
+        </div>
+      </div>
+      <div class="result">
+        <p></p>
+        <button>Replay</button>
+      </div>
+    </div>
+  </body>
+</html>
